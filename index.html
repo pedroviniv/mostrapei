@@ -3,11 +3,363 @@
 <head>
 	<meta charset="utf-8">
 	<title>V Mostra de Pesquisa, Extensão e Inovação</title>
+	<link href="https://fonts.googleapis.com/css?family=Neuton:400,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="lib/materialize/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="mostrapei.css">
 	<script type="text/javascript" src="lib/jquery/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="lib/materialize/js/materialize.min.js"></script>
+	<script type="text/javascript" src="lib/masonry/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="mostrapei.js"></script>
 </head>
 <body>
+
+	<header class="navbar-fixed">
+		<nav class="green darken-2">	
+		    <div class="nav-wrapper">
+
+		      	<a href="#" class="brand-logo">MostraPei</a>
+		      	<a href="#" data-activates="sideNavContent" class=" right button-collapse">
+		      		<i class="material-icons">menu</i>
+		      	</a>
+
+		      	<ul class="right hide-on-med-and-down">
+		        	<li class="active"><a href="#">Home</a></li>
+		        	<li><a href="#about">Sobre o Evento</a></li>
+		        	<li><a href="#speakers">Palestrantes e Oficineiros</a></li>
+		        	<li><a href="#organization">Comissão Organizadora</a></li>
+		        	<li><a href="#schedule">Programação</a></li>
+		        	<li><a href="#register">Inscrição</a></li>
+		        	<li><a href="#local">Local</a></li>
+		      	</ul>
+
+		      	<ul class="side-nav" id="sideNavContent">
+		      		<li class="active"><a href="#">Home</a></li>
+		        	<li><a href="#about">Sobre o Evento</a></li>
+		        	<li><a href="#speakers">Palestrantes e Oficineiros</a></li>
+		        	<li><a href="#organization">Comissão Organizadora</a></li>
+		        	<li><a href="#schedule">Programação</a></li>
+		        	<li><a href="#register">Inscrição</a></li>
+		        	<li><a href="#local">Local</a></li>
+		      	</ul>
+
+		    </div>
+		</nav>
+	</header>
+
+	<section class="intro white-text">
+		<div class="row">
+			<img src="imgs/ifpb02.jpg">
+			<div class="col m6 s12 offset-m3 centered-panel">
+				<h1 class="text-center"><span class="big-word">V</span> Mostra de Pesquisa, Extensão e Inovação</h1>
+			</div>
+		</div>
+	</section>
+
+	<section id="about" class="about">
+		<div class="container">
+			<h2 class="text-center header">Sobre o Evento</h2>
+			<p class="text-center flow-text">
+				A Mostra de Pesquisa e Extensão vem sendo realizada desde 2012, com o intuito de disseminar os conhecimentos construídos por todos os pesquisadores e extensionistas (servidores e discentes) a partir do desenvolvimento dos seus projetos no IFPB - Campus Cajazeiras. Nesta edição contamos também com a presentação dos trabalhos de Inovação tecnológica, que apresenta como diferencial, os projetos de pesquisa aplicada.
+				Portanto, este ano de 2016 passamos a apresentar para comunidade a Mostra de Pesquisa, Extensão e Inovação mostrando na sua nova versão: palestra, mesa redonda, oficinas, apresentações de banners/orais e atividades culturais.
+			</p>
+			<p class="text-center flow-text">Esperamos poder compartilhar este momento!</p>
+		</div>
+	</section>
+
+	<section id="speakers" class="speakers">
+		<h2 class="text-center header">Palestrantes e Oficineiros</h2>
+		<div class="row">
+			
+			<div class="container">
+
+				<div class="cards-wrapper">
+				
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/abertura.jpg">
+								<span class="card-title">Abertura</span>
+							</div>
+							<div class="card-content">
+								<p>Palestra de Abertura</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/japonesa.jpeg">
+								<span class="card-title">Cultura Japonesa</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina - Cultura Japonesa</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/artigos.jpg">
+								<span class="card-title">Artigos</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina - Elaboração de Artigos</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/robotica.jpg">
+								<span class="card-title">Robótica</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina de Robótica</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/origami.jpg">
+								<span class="card-title">Origami</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina de Origami</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/memoria.jpg">
+								<span class="card-title">Cesto da Memória</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina Cesto da Memória</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/teatro.jpg">
+								<span class="card-title">Teatro</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina de Teatro</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/num_inteiros.jpg">
+								<span class="card-title">Números Inteiros</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina de Números Inteiros</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/palestrantes/lattes.jpg">
+								<span class="card-title">Currículo Lattes</span>
+							</div>
+							<div class="card-content">
+								<p>Oficina de Preenchimento do Currículo Lattes</p>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="organization" class="organization">
+		<h2 class="text-center header">Comissão Organizadora</h2>
+
+		<div class="row organizers-wrapper">
+			<div class="container">
+
+				<div class="cards-wrapper">
+				
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/organizacao/1.jpg">
+								<span class="card-title">Fulano de Tal</span>
+							</div>
+							<div class="card-action">
+								<a class="activator" href="#!">Mais Informações</a>
+							</div>
+							<div class="card-reveal">
+							    <span class="card-title grey-text text-darken-4">
+							    	Fulano de Tal
+							    	<i class="material-icons right">close</i>
+							    </span>
+							    <p>
+							    	Here is some more information about this product that is only revealed once clicked on.
+							    </p>
+						    </div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/organizacao/1.jpg">
+								<span class="card-title">Fulano de Tal</span>
+							</div>
+							<div class="card-action">
+								<a class="activator" href="#!">Mais Informações</a>
+							</div>
+							<div class="card-reveal">
+							    <span class="card-title grey-text text-darken-4">
+							    	Fulano de Tal
+							    	<i class="material-icons right">close</i>
+							    </span>
+							    <p>
+							    	Here is some more information about this product that is only revealed once clicked on.
+							    </p>
+						    </div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/organizacao/1.jpg">
+								<span class="card-title">Fulano de Tal</span>
+							</div>
+							<div class="card-action">
+								<a class="activator" href="#!">Mais Informações</a>
+							</div>
+							<div class="card-reveal">
+							    <span class="card-title grey-text text-darken-4">
+							    	Fulano de Tal
+							    	<i class="material-icons right">close</i>
+							    </span>
+							    <p>
+							    	Here is some more information about this product that is only revealed once clicked on.
+							    </p>
+						    </div>
+						</div>
+
+					</div>
+
+					<div class="card-wrapper col l3 m4 s12">
+						
+						<div class="card">
+							<div class="card-image">
+								<img src="imgs/organizacao/1.jpg">
+								<span class="card-title">Fulano de Tal</span>
+							</div>
+							<div class="card-action">
+								<a class="activator" href="#!">Mais Informações</a>
+							</div>
+							<div class="card-reveal">
+							    <span class="card-title grey-text text-darken-4">
+							    	Fulano de Tal
+							    	<i class="material-icons right">close</i>
+							    </span>
+							    <p>
+							    	Here is some more information about this product that is only revealed once clicked on.
+							    </p>
+						    </div>
+						</div>
+
+					</div>
+
+					
+
+					
+
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+	<footer id="local" class="page-footer green darken-2">
+        <div class="container">
+            <div class="row">
+              	<div class="col l6 s12">
+                	<h5 class="white-text">V Mostra de Pesquisa, Extensão e Inovação</h5>
+					<p class="grey-text text-lighten-4">
+						<i class="fa fa-phone" aria-hidden="true"></i> Telefone <br>
+						3532-4100
+					</p>
+					<p class="grey-text text-lighten-4">
+                		<i class="fa fa-map-marker" aria-hidden="true"></i> Endereço <br>
+                		Rua José Antônio da Silva, 300
+						Bairro Jardim Oásis
+						Cajazeiras - PB
+						CEP: 58.900-000 
+					</p>
+              	</div>
+              	<div class="col l4 offset-l2 s12">
+                	<h5 class="white-text">Redes Sociais</h5>
+               		<ul class="social">
+                  		<li>
+	                  		<a class="grey-text text-lighten-3" href="https://www.facebook.com/ifpbcazajeiras"
+	                  		target="_blank">
+	                  			<i class="fa fa-facebook-square" aria-hidden="true"></i>	
+	                  		</a>
+                  		</li>
+                  		<li>
+	                  		<a class="grey-text text-lighten-3" href="https://www.instagram.com/explore/locations/268054637/ifpb-cajazeiras" target="_blank">
+	                  			<i class="fa fa-instagram" aria-hidden="true"></i>	
+	                  		</a>
+                  		</li>
+                	</ul>
+              	</div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            Copyright © V Mostra de Pesquisa, Extensão e Inovação 2016
+            <a class="grey-text text-lighten-4 right" href="#!">Desenvolvido por HeroCode</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
