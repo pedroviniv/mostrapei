@@ -10,8 +10,13 @@ html {
 
 @media screen and (min-width: 601px) {
 	.card .card-title {
-		font-size: 1.3em;
+		font-size: 1em;
+		font-weight: 500;
 	}
+}
+
+.card-title{
+	text-align: center;
 }
 
 .intro {
@@ -28,6 +33,7 @@ html {
 	min-height: 700px;
 	object-fit: cover;
 	filter: brightness(70%);
+	-webkit-filter: brightness(70%);
 }
 
 .text-center {
@@ -68,7 +74,8 @@ section{
 
 .card > .card-image > img{
 	transition: 0.3s ease;
-	filter: brightness(70%);
+	-webkit-filter: brightness(60%);
+	filter: brightness(60%);
 	height: 250px;
 	width: 100%;
 	object-fit: cover;
@@ -173,5 +180,6 @@ h4.header {
 
 .icon:hover {
 	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
     transition: 0.3s ease;
 }
