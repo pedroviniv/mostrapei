@@ -14,10 +14,6 @@ html {
 	}
 }
 
-section {
-	min-height: 100vh;
-}
-
 .intro {
 	font-family: Trebuchet, sans-serif;
 	font-weight: 700;
@@ -57,14 +53,13 @@ section {
 
 section{
 	padding: 70px 0px;
+	min-height: 100vh;
 }
 
 .header {
 	font-weight: 300;
-}
-
-.cards-wrapper {
 	padding-top: 40px;
+	padding-bottom: 45px;
 }
 
 .card > .card-image {
@@ -161,10 +156,12 @@ footer.page-footer {
 h4.header {
 	font-size: 2em;
 	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #schedule .header {
-	margin-bottom: 50px;
+	/*margin-bottom: 50px;*/
 }
 
 .icon {
