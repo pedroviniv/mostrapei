@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+	(function () {
+	    var width = screen.width,
+	        height = screen.height;
+	    setInterval(function () {
+	        if (screen.width !== width || screen.height !== height) {
+	            width = screen.width;
+	            height = screen.height;
+	            $(window).trigger('resolutionchange');
+	        }
+	    }, 50);
+	}());
+
 	$(".button-collapse").sideNav({
 
 	 	menuWidth: 240, // Default is 240
@@ -21,5 +33,9 @@ $(document).ready(function() {
     window.setInterval(function() {
     	$('.carousel').carousel('next')
     }, 4000);
+
+    $(window).bind('resolutionchange', function() {
+    	$('.button-collapse').sideNav('hide');
+    });
 
 });

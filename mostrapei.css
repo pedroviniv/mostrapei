@@ -140,3 +140,12 @@ footer.page-footer {
 	color: #fff;
 }
 
+h4.header {
+	font-size: 2em;
+	margin-top: 50px;
+}
+
+#schedule .header {
+	margin-bottom: 50px;
+}
+
