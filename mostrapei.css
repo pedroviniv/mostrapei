@@ -104,9 +104,10 @@ section{
 	padding-right: 3%;
 }
 
-.social li {
-	float: left;
-	margin-right: 10px;
+.social-wrapper {
+	max-width: 100px;
+	position: relative;
+	left: calc(50% - 50px);
 }
 
 .social	.fa {
