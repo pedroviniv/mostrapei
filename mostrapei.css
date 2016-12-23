@@ -196,3 +196,26 @@ h4.header {
 	-webkit-filter: grayscale(0%);
     transition: 0.3s ease;
 }
+
+.grayscale-link {
+	transition: 0.3s ease;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.grayscale-link:hover {
+	transition: 0.3s ease;
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+.file-icon {
+	height: 128px;
+	width: 128px;
+}
+
+.block-center {
+	display: block;
+	margin: 0px auto;
+}
