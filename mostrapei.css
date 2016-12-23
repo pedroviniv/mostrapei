@@ -236,6 +236,8 @@ h4.header {
        -moz-transition:background 2s ease-out;
        -o-transition:background 2s ease-out;
        -ms-transition:background 2s ease-out;
+
+    border-radius: 20px;
 }
 .balloon:after{
 	content: "";
