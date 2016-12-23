@@ -83,8 +83,14 @@ section{
 	height: 85px;
 }
 
+.card-action{
+	font-size: 0.9em;
+	text-align: center;
+}
+
 .card-action > a {
 	color: #558b2f !important;
+	margin: 0px !important;
 }
 
 .big-word {
