@@ -22,6 +22,10 @@ html {
 	}
 }
 
+.brand-logo {
+	font-family: 'Oswald', sans-serif;
+}
+
 .card-title{
 	text-align: center;
 	width: 100%;
@@ -124,7 +128,7 @@ section{
 }
 
 .big-word {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .speakers {
