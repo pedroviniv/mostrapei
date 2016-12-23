@@ -30,17 +30,6 @@ html {
 	filter: brightness(70%);
 }
 
-.about-bye-message {
-    font-style: italic;
-    font-weight: 500;
-    padding-top: 15px;
-}
-
-#about-logo {
-	padding-top: 50px;
-	width: 100px;
-}
-
 .text-center {
 	text-align: center;
 }
@@ -60,6 +49,17 @@ section{
 	font-weight: 300;
 	padding-top: 40px;
 	padding-bottom: 45px;
+}
+
+#about-logo{
+	padding-top: 50px;
+	width: 100px;
+}
+
+.about-bye-message{
+	font-style: italic;
+	font-weight: 500;
+	padding-top: 15px;
 }
 
 .card > .card-image {
@@ -104,9 +104,10 @@ section{
 	padding-right: 3%;
 }
 
-.social li {
-	float: left;
-	margin-right: 10px;
+.social-wrapper {
+	max-width: 100px;
+	position: relative;
+	left: calc(50% - 50px);
 }
 
 .social	.fa {
@@ -122,10 +123,6 @@ section{
 
 footer.page-footer {
 	margin-top: 0px;
-}
-
-#schedule {
-	/*background-color: #f5f5f5;*/	
 }
 
 .day {
@@ -170,10 +167,6 @@ h4.header {
 	margin-top: 50px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-
-#schedule .header {
-	/*margin-bottom: 50px;*/
 }
 
 .icon {
