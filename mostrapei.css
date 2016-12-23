@@ -44,6 +44,20 @@ html {
 	-webkit-filter: brightness(50%);
 }
 
+.intro .slider {
+	height: 100vh !important;
+	min-height: 700px !important;
+}
+
+.intro .slider .slides {
+	height: 100vh !important;
+	min-height: 700px !important;
+}
+
+.intro .slider .slides li {
+	height: 100%;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -52,6 +66,7 @@ html {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	z-index: 2;
 }
 
 section{
