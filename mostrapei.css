@@ -2,6 +2,12 @@ html {
 	font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
 
+body.zoomed-out { 
+    zoom: 0.8; 
+    -moz-transform: scale(0.8); 
+    -moz-transform-origin: 0 0;
+} 
+
 @media screen and (min-width: 992px) {
 	.brand-logo {
 		margin-left: 30px;
