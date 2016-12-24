@@ -286,3 +286,19 @@ h4.header {
 	border-bottom: dashed;
 	border-width: 1px;
 }
+
+.footer-copyright{
+	height: auto !important	;
+	text-align: center;
+	line-height: 2em !important;
+}
+
+.footer-copyright > div{
+	padding-top: 10px;
+}
+
+.herocode-link{
+	padding-bottom: 5px;
+	border-bottom: dashed;
+	border-width: 1px;
+}
