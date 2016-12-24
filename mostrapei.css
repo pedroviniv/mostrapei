@@ -95,7 +95,7 @@ section{
 .header {
 	font-weight: 300;
 	padding-top: 40px;
-	padding-bottom: 45px; 
+	padding-bottom: 45px;
 }
 
 #about-logo{
@@ -190,7 +190,7 @@ footer.page-footer {
 }
 
 .schedule-table {
-	font-size: 1.05em;
+	font-size: 1.05em !important;
 	margin-bottom: 50px;
 }
 
