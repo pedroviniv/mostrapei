@@ -211,6 +211,12 @@ h4.header {
 	transition: 0.3s ease;
 }
 
+.email {
+	color: #558b2f !important;
+	font-weight: 300;
+	border-bottom: 1px dashed #558b2f;
+}
+
 .icon:hover {
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
