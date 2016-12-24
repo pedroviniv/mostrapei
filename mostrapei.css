@@ -12,6 +12,10 @@ html {
 	.footer-copyright{
 		text-align: center;
 	}
+
+	.footer-right {
+		margin-top: 100px;
+	}
 }
 
 @media screen and (min-width: 601px) {
@@ -250,6 +254,15 @@ h2.header {
 	transition: 0.3s ease;
 	-webkit-filter: grayscale(0%);
 	filter: grayscale(0%);
+}
+
+.opacity-hover {
+	transition: 0.3s ease;
+}
+
+.opacity-hover:hover {
+	transition: 0.3s ease;
+	opacity: 0.6;
 }
 
 
