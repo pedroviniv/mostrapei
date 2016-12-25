@@ -256,13 +256,18 @@ h2.header {
 	filter: grayscale(0%);
 }
 
-.opacity-hover {
+.bright-hover {
 	transition: 0.3s ease;
+	filter: brightness(100%);
+	-webkit-filter: brightness(100%);
 }
 
-.opacity-hover:hover {
+.bright-hover:hover {
 	transition: 0.3s ease;
-	opacity: 0.6;
+	/*opacity: 0.6;*/
+	filter: brightness(120%);
+	-webkit-filter: brightness(120%);
+
 }
 
 
