@@ -17,4 +17,8 @@ $(document).ready(function() {
       $('.slider').slider({full_width: true, indicators: false});
     });
 
+    $('.address-wrapper').hover(function() {
+    	$(this).children('.balloon').fadeToggle(300);
+    });
+
 });

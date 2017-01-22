@@ -284,12 +284,6 @@ h2.header {
 .address-wrapper{
 	position: relative;
 }
-.address-wrapper:hover .balloon{
-	display: block;
-	filter:alpha(opacity=100);
-	-moz-opacity:1;
-	opacity:1;
-}
 
 .balloon{
 	width: 500px;
@@ -297,14 +291,21 @@ h2.header {
 	position: absolute;
 	top: -250px;
 	display: none;
-
-	-webkit-transition:background 2s ease-out;
-	-moz-transition:background 2s ease-out;
-	-o-transition:background 2s ease-out;
-	-ms-transition:background 2s ease-out;
-
 	border-radius: 20px;
+	-webkit-border-radius: 20px; 
+    -moz-border-radius: 20px;
 }
+
+.maps-wrapper {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	-webkit-border-radius: 20px; 
+    -moz-border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
 .balloon:after{
 	content: "";
 	width: 0;
