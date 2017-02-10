@@ -21,4 +21,8 @@ $(document).ready(function() {
     	$(this).children('.balloon').fadeToggle(300);
     });
 
+     $(document).ready(function(){
+	    $('.modal').modal();
+  	});
+
 });
