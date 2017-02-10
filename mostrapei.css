@@ -41,6 +41,10 @@ html {
 	width: 100%;
 }
 
+.card-image {
+	position: relative;
+}
+
 .intro {
 	font-family: Trebuchet, sans-serif;
 	font-weight: 700;
@@ -137,7 +141,7 @@ section{
 }
 
 .card-content {
-	height: 85px;
+	height: 80px;
 }
 
 .card-action{
@@ -202,7 +206,7 @@ footer.page-footer {
 }
 
 .card .card-reveal {
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.9);
 }
 
 .card .card-reveal .card-reveal-content p,i {
@@ -274,6 +278,11 @@ h2.header {
 .file-icon {
 	height: 128px;
 	width: 128px;
+}
+
+.file-icon.medium {
+	height: 64px;
+	width: 64px;
 }
 
 .block-center {
@@ -476,4 +485,8 @@ nav ul li a {
 
 #sidenav-overlay {
 	height: 0px !important;
+}
+
+.btn-flat:active {
+	color: #fff;
 }
