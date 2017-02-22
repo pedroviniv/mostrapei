@@ -490,3 +490,8 @@ nav ul li a {
 .btn-flat:active {
 	color: #fff;
 }
+
+.no-active {
+	pointer-events: none;
+	cursor: default;
+}
